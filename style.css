@@ -1,0 +1,309 @@
+html, body{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+    z-index: 0;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    z-index: 999;
+    position: fixed;
+    background-attachment: fixed;
+    width: 100%;
+    height: 5em;
+    background-color: rgb(7, 50, 98);
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.2em;
+
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    margin-left: 1em;
+}
+
+.menu{
+    color: white;
+    font-size: 3rem;
+    margin-right: 1em;
+}
+
+
+.main{
+    background-image: url(spaceearth.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+    padding: 5%;
+}
+
+.welcome{
+    color: white;
+    text-align: center;
+    padding-top: 2em;
+    font-weight: 900;
+}
+.about{
+    overflow: hidden;
+    height: auto;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    font-size: 1.5em;
+    height: 20%;
+}
+.about p{
+    color: rgb(163, 193, 235);
+    font-weight: 100;
+}
+.about h1{
+    color: white;
+    font-size: 1em;
+    
+}
+
+.service{
+    background-image: url(images/earthquick.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10rem 2rem;
+}
+.cards{
+    color: white;
+    padding: 10em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.card{
+    color: white;
+    background-color: rgb(12, 49, 137);
+    width: 15em;
+    height: 15em;
+    text-align: center;
+    justify-content: center;
+    border-style: solid;
+    box-shadow: 0.5em 0.5em 0.5em white;
+    overflow: hidden;
+}
+.card h2{
+    font-size: 1.3em;
+    padding: 2.5em 3em;
+    color: white;
+}
+.card a{
+    text-decoration: none;
+}
+.card:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.card:active{
+    transform: scale(1.15);
+    opacity: 0.7;
+}
+
+.dissasters{
+    background-color: rgb(7, 50, 98);
+    padding: 5rem 2rem;
+    
+}
+.dissasters h2{
+    color:rgb(255, 255, 255);
+    border-style: solid;
+    box-shadow: 0.3em 0.3em 0.3em white;
+    padding: 2em 2em;
+}
+.sections{
+    padding: 1% 5%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+}
+
+/*buttons backgrounds*/
+
+.tornado{
+    background-image: url(images/tornado.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.floods{
+    background-image: url(images/floods.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.cold{
+    background-image: url(images/cold.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.heat{
+    background-image: url(images/hot.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.ground-melt{
+    background-image: url(images/ground-melt.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.ground-tor{
+    background-image: url(images/ground.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.small-tor{
+    background-image: url(images/small-tor.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.dry{
+    background-image: url(images/dry.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.volcano{
+    background-image: url(images/volcano.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.earthquick{
+    background-image: url(images/earthquick.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.forest{
+    background-image: url(images/forest.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/*buttons backgrounds finish*/
+
+.dissasters a{
+    text-decoration: none;
+}
+.dissasters a:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+}
+.dissasters a:active{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.dissasters h1{
+    color: white;
+    text-align: center;
+    padding-top: 2em;
+}
+.earthquick-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.earthquick{
+    background-image: url(images/earthquick.jpg.webp);
+}
+
+.map-container{
+    display: flex;
+}
+.map{
+    height: 40rem;
+    width:85%;
+    border-style: solid;
+    border-color: white;
+    border-width: 1.5em;
+}
+.map-sides{
+    height: 40rem;
+    width:65%;
+    flex-wrap: wrap;
+    padding: 2em 2em;
+    background-image: url(start-bac.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.map-introduction{
+    color: rgb(163, 193, 235);
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.green{
+    font-size: 1em;
+    color: rgb(7, 255, 0);
+}
+.yellow{
+    font-size: 1em;
+    color: rgb(255, 255, 0);
+}
+.red{
+    font-size: 1em;
+    color: rgb(255, 0, 0);
+}
+.list-container{
+    padding-top: 20%;
+}
+
+.earthquicks{
+    background-image: url(start-bac.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 1em;
+}
+
+.earthquick-title{
+    color: rgb(163, 193, 235);
+    text-align: center;
+}
+.earthquicks h2, p, h3, h1, h4, ul{
+    color: white;
+    text-align: center;
+    padding: 1em 2em;
+}
+
+.er-cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.er-card{
+    background-color: rgb(12, 49, 137);
+    opacity: 0.9;
+    width: 20em;
+    height: auto;
+    box-shadow: 0.5em 0.5em 0.5em rgb(163, 193, 235);
+}
+
+.er-card:hover{
+    opacity: calc(0.7);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.er-card:active{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
