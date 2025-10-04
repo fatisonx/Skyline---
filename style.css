@@ -41,24 +41,23 @@ header{
     background-image: url(spaceearth.jpeg);
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
     scroll-behavior: smooth;
-    padding: 5%;
+    padding: 15%;
 }
 
 .welcome{
-    color: white;
+    color: rgb(7, 50, 98);
     text-align: center;
-    padding-top: 2em;
+    padding-top: 10%;
     font-weight: 900;
 }
 .about{
     overflow: hidden;
     height: auto;
     text-align: center;
-    width: 70%;
+    width: 100%;
     margin: auto;
-    font-size: 1.5em;
+    font-size: 115%;
     height: 20%;
 }
 .about p{
@@ -66,23 +65,21 @@ header{
     font-weight: 100;
 }
 .about h1{
-    color: white;
+    color: rgb(7, 50, 98);
     font-size: 1em;
     
 }
-
 .service{
     background-image: url(images/earthquick.jpg.webp);
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
-    padding: 10rem 2rem;
+    padding: 20% 5%;
 }
 .cards{
     color: white;
-    padding: 10em;
     display: flex;
     flex-wrap: wrap;
+    
     justify-content: center;
     align-items: center;
     gap: 1em;
@@ -90,7 +87,7 @@ header{
 
 .card{
     color: white;
-    background-color: rgb(12, 49, 137);
+    background-color: rgb(7, 50, 98);
     width: 15em;
     height: 15em;
     text-align: center;
@@ -99,6 +96,7 @@ header{
     box-shadow: 0.5em 0.5em 0.5em white;
     overflow: hidden;
 }
+
 .card h2{
     font-size: 1.3em;
     padding: 2.5em 3em;
@@ -234,18 +232,19 @@ header{
 }
 .map-sides{
     height: 40rem;
-    width:65%;
+    width:25%;
     flex-wrap: wrap;
     padding: 2em 2em;
     background-image: url(start-bac.png);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    overflow: scroll;
 }
 .map-introduction{
     color: rgb(163, 193, 235);
     text-align: center;
-    font-size: 1.5em;
+    font-size: 110%;
 }
 
 .green{
@@ -267,7 +266,7 @@ header{
 .earthquicks{
     background-image: url(start-bac.png);
     background-position: center;
-    background-size: cover;
+    background-size:contain;
     background-attachment: fixed;
     padding-top: 1em;
 }
@@ -284,8 +283,8 @@ header{
 
 .er-cards{
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
